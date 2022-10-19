@@ -1,0 +1,24 @@
+.VRContainer{
+position: relative;
+}
+.dec{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #FFF;
+  background-color: rgba(0,0,0,.5);
+  width: 30vw;
+  height: 30vh;
+  padding: 5px;
+  overflow: hidden;
+}
+.info {
+  overflow: auto;
+  height: 100%;
+}
+
+.btn{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
