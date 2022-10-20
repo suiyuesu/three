@@ -1,11 +1,11 @@
 /*
  * @Descripttion: 
  * @version: 
- * @Author: 苏
+ * @Author: 苏君
  * @email: 1373842098@qq.com
  * @Date: 2022-10-13 13:57:22
  * @LastEditors: sj
- * @LastEditTime: 2022-10-19 15:18:27
+ * @LastEditTime: 2022-10-20 13:35:43
  */
 
 import React, { ReactElement, useEffect, useRef, useState } from 'react';
@@ -108,10 +108,6 @@ export const Vr = (): ReactElement => {
   })
 
   useEffect(() => {
-    document.title = 'VR实景'  // 修改小程序的 tabbarTitle
-    if (location.search.split('?').length > 1) {
-      console.log(location.search.split('?')[1].split('&'));
-    }
     init()
   }, [])
 
